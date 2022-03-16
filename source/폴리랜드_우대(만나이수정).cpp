@@ -507,7 +507,7 @@ int main()
 		price = standard_after4_senior*treatment_multichild;
 	} 	 	 
 	
-	printf("만 나이: %d\n나이그룹: %d\n가격은%d입니다.\n감사합니다. ", age, age_group, price);
+	printf("만 나이: %d\n나이그룹: %d\n가격은 %d입니다.\n감사합니다. ", age, age_group, price);
 	
 	
 	return 0;

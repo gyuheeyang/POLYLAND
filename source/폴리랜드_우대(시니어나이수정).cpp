@@ -13,26 +13,25 @@ int main()
 	const int standard_day1_teen = 52000; 
 	const int standard_day1_kid = 47000; 
 	const int standard_day1_baby = 15000; 
-	const int standard_day1_senior = 15000; 
+	const int standard_day1_senior = 47000; 
 	
 	const int standard_after4_adult = 48000; 
 	const int standard_after4_teen = 42000; 
 	const int standard_after4_kid = 36000; 
 	const int standard_after4_baby = 15000; 
-	const int standard_after4_senior = 15000; 
+	const int standard_after4_senior = 36000; 
 	
 	const int park_day1_adult = 56000; 
 	const int park_day1_teen = 50000; 
 	const int park_day1_kid = 46000; 
 	const int park_day1_baby = 15000; 
-	const int park_day1_senior = 15000;
+	const int park_day1_senior = 46000;
 	
 	const int park_after4_adult = 45000; 
 	const int park_after4_teen = 40000; 
 	const int park_after4_kid = 35000; 
 	const int park_after4_baby = 15000;  
-	
-	const int park_after4_senior = 15000;  
+	const int park_after4_senior = 35000;  
 	 
 	printf("권종을 선택하세요.\n1.종합이용권\n2.파크이용권\n"); 
 	scanf("%d", &ticket);
@@ -91,9 +90,7 @@ int main()
 	{
 		age_group =5; //senior
 	}
-	
-	
-	
+		
 	//1day 티켓 가격  
 	int price; 
 	
@@ -507,7 +504,7 @@ int main()
 		price = standard_after4_senior*treatment_multichild;
 	} 	 	 
 	
-	printf("만 나이: %d\n나이그룹: %d\n가격은%d입니다.\n감사합니다. ", age, age_group, price);
+	printf("만 나이: %d\n나이그룹: %d\n가격은 %d입니다.\n감사합니다. ", age, age_group, price);
 	
 	
 	return 0;
