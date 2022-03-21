@@ -34,7 +34,6 @@ int main()
 	const int PARK_AFTER4_SENIOR = 35000;  
 	 
 	
-	
 	//만 나이 계산  
 	int today_year = (today/ 10000) + 100 ;
 	int birth_year = birthday/ 10000;
