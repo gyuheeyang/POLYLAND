@@ -382,7 +382,7 @@ int main()
 					else if(age_group==4){
 						price = PARK_AFTER4_BABY;
 					}
-					else if(age_group==4){
+					else if(age_group==5){
 						price = PARK_AFTER4_SENIOR;
 					}
 				}
