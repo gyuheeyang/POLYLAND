@@ -55,7 +55,6 @@ int main()
 		age = age - 100;
 	}
 	
-
 	//나이 그룹  
 	int age_group;
 	
