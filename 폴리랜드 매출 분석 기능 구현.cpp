@@ -5,7 +5,7 @@
 int main()
 {
 	//   report.csv 불러오기 	
-	FILE *fp = fopen("report.csv", "r");
+	FILE *fp = fopen("report30.csv", "r");
 	const int  MAX = 100;
 	int count= 0;
 	
